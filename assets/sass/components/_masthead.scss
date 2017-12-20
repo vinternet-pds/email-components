@@ -1,0 +1,21 @@
+#templatePreheader {
+  font-size: 11px;
+  color: $grey-2;
+  a {
+    color: $grey-2;
+  }
+  td {
+    padding: 6px 0;
+  }
+}
+
+#templateMasthead {
+  background: $grey-1;
+  color: $white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  td {
+    padding: 18px 0;
+  }
+}

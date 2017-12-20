@@ -1,0 +1,21 @@
+.divider {
+	hr {
+		border: 0;
+		border-color: $grey-3;
+		border-top-width: 2px;
+		border-top-style: solid;
+		margin: 0;
+	}
+}
+
+.divider.hoc {
+	hr {
+		border-color: $commons;
+	}
+}
+
+.divider.hol {
+	hr {
+		border-color: $lords;
+	}
+}
