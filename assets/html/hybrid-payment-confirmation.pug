@@ -1,0 +1,39 @@
+extends hybrid-base.pug
+
+block content
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content divider.ukp' width='100%')
+        tr
+          td
+            hr
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='hybrid-header' width='100%')
+        tr
+          td
+            h1 High Speed Rail (West Midlands-Crewe) Bill petition
+  include components/divider.pug
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content hybrid-content' width='100%')
+        tr
+          td
+            //- Salutation
+            p.hybrid-variable.top
+              = '{IF MAIN CONTACT / PETITON AGENT}'
+            p Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+            p.hybrid-variable
+              = '{ELSE}'
+            p Dear {Petitioner First Name} {Petitioner Last Name}
+            p.hybrid-variable.bottom
+              = '{END IF MAIN CONTACT / PETITON AGENT}'
+
+            //- Petition reference  
+            p We have received the £20 admin fee for your petition against the High Speed Rail (West Midlands - Crewe) Bill - [petition number e.g. HS22A 0001]. Thank you.
+            
+            p For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+            
+            p Yours sincerely,
+            p Private Bill Office
+            p House of Commons

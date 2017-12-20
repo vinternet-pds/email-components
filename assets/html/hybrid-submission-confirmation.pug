@@ -1,0 +1,82 @@
+extends hybrid-base.pug
+
+block content
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content divider.ukp' width='100%')
+        tr
+          td
+            hr
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='hybrid-header' width='100%')
+        tr
+          td
+            h1 High Speed Rail (West Midlands-Crewe) Bill petition
+  include components/divider.pug
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content hybrid-content' width='100%')
+        tr
+          td
+            //- Salutation
+            p.hybrid-variable.top
+              = '{IF MAIN CONTACT / PETITON AGENT}'
+            p Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+            p.hybrid-variable
+              = '{ELSE}'
+            p Dear {Petitioner First Name} {Petitioner Last Name}
+            p.hybrid-variable.bottom
+              = '{END IF MAIN CONTACT / PETITON AGENT}'
+
+            //- Petition reference  
+            p We have received your petition against the High Speed Rail (West Midlands - Crewe) Bill.
+            p 
+              = 'Your petition reference is '
+              strong {Petition Reference}
+
+            //- What happens next
+            h2 What happens next
+            ul
+              li we’ll email you within 14 days about how to pay the &pound;20 admin fee.
+              li we’ll publish your petition on our website. This will include your name and address.
+              li we’ll send your petition to HS2 Limited, who may contact you to discuss it. HS2 Limited can challenge your petition if they don’t believe you are affected by the Bill.
+              li you will usually be invited to give evidence to the committee about your petition. Hearings are scheduled for spring/summer 2018.
+
+            //- Petitioner's details
+            h2 Petitioner's details
+            p Name: {Petitioner First Name} {Petitioner Last Name}
+            p Address line 1: {Petitioner Address Line 1}
+            p Address line 2: {Petitioner Address Line 2}
+            p Post code: {Petitioner Post Code}
+            p Email: {Petitioner Email}
+            p Phone: {Petitioner Phone}
+
+            //- Main contact’s details
+            p.hybrid-variable.top
+              = '{IF MAIN CONTACT / PETITON AGENT}'
+            h2 Main contact’s details
+            p Name: {Petitioner Agent First Name} {Petitioner Agent Last Name}
+            p Address line 1: {Petitioner Agent Address Line 1}
+            p Address line 2: {Petitioner Agent Address Line 2}
+            p Post code: {Petitioner Agent Post Code}
+            p Email: {Petitioner Agent Email}
+            p Phone: {Petitioner Agent Phone}
+            p.hybrid-variable.bottom
+              = '{END IF MAIN CONTACT / PETITON AGENT}'
+
+            //- Changing contact information
+            h2 Changing contact information
+            p If you want to change the main contact for your petition call us on 020 7219 3250.
+
+            //- Withdrawing your petition
+            h2 Withdrawing your petition
+            p 
+             = 'You can withdraw your petition by emailing us at '
+             a(href='mailto:prbohoc@parliament.uk') prbohoc@parliament.uk
+
+            p Anyone named on a petition can withdraw from the petition, leaving the remaining petitioners to continue with it.
+            p Withdrawn petitions will not be removed from the website.
+
+            br
+            br

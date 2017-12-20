@@ -1,0 +1,47 @@
+#hybridMasthead {
+  background-color: $white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  td {
+    padding: 18px 0 12px 18px;
+  }
+}
+
+.hybrid-header {
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: $deep-purple;
+    line-height: 0;
+    padding: 24px 0 24px 18px;
+    margin: 0;
+  }
+}
+
+.hybrid-content {
+  h2, p {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  h2 {
+    color: $deep-purple;
+  }
+  ul {
+    padding-left: 30px;
+    padding-right: 24px;
+    li {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.hybrid-variable {
+  color: $lords;
+  &.top {
+    padding-top: 12px;
+  }
+  &.bottom {
+    padding-bottom: 12px;
+  }
+}

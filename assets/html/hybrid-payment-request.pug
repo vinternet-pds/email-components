@@ -1,0 +1,79 @@
+extends hybrid-base.pug
+
+block content
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content divider.ukp' width='100%')
+        tr
+          td
+            hr
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='hybrid-header' width='100%')
+        tr
+          td
+            h1 High Speed Rail (West Midlands-Crewe) Bill petition
+  include components/divider.pug
+  tr
+    td(align='center' valign='top')
+      table(border='0' cellpadding='0' cellspacing='0' class='content hybrid-content' width='100%')
+        tr
+          td
+            //- Salutation
+            p.hybrid-variable.top
+              = '{IF MAIN CONTACT / PETITON AGENT}'
+            p Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+            p.hybrid-variable
+              = '{ELSE}'
+            p Dear {Petitioner First Name} {Petitioner Last Name}
+            p.hybrid-variable.bottom
+              = '{END IF MAIN CONTACT / PETITON AGENT}'
+
+            //- Petition reference  
+            p You submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill on {Petition Submission Date} - your petition number is {Petition Number}.
+            
+            p For the committee to consider your petition you need to pay a £20 admin fee.
+            
+            h2 How to pay
+            p There are two ways to pay your £20 admin fee:
+            
+            h3 Online transfer
+            
+            table(border='0' cellpadding='0' cellspacing='0' class='' width='100%')
+              tr
+                td Account Name:
+                td HOC Administration 2
+              tr
+                td Account Number:
+                td 10022317
+              tr
+                td Sort Code:
+                td 60-70-80
+            
+            p For international transfers:
+            
+            table(border='0' cellpadding='0' cellspacing='0' class='' width='100%')
+              tr
+                td IBAN:
+                td GB58NWBK6070801002231710022317
+              tr
+                td Swift (BIC):
+                td NWBKGB2
+
+            h3 Cheque
+            
+            p Cheques should be made payable to XXX and sent to:
+            
+            p Private Bill Office
+            p House of Commons
+            p London
+            p SW1A 0AA
+            
+            p Please write your petition number on the back of the cheque.
+            
+            p For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+            
+            p Yours sincerely,
+            
+            p Private Bill Office
+            p House of Commons
