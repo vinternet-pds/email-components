@@ -1,0 +1,67 @@
+﻿UK Parliament
+
+High Speed Rail (West Midlands-Crewe) Bill petition
+
+
+{IF MAIN CONTACT / PETITON AGENT}
+
+Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+
+{ELSE}
+
+Dear {Petitioner First Name} {Petitioner Last Name}
+
+{END IF MAIN CONTACT / PETITON AGENT}
+
+
+You submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill on {Petition Submission Date - DD/MM/YYYY} - your petition number is {Petition Number}.
+
+For the committee to consider your petition you need to pay a £20 admin fee.
+How to pay
+
+There are two ways to pay your £20 admin fee:
+
+
+Online transfer
+
+Account Name: HOC Administration 2
+Account Number: 10022317
+Sort Code: 60-70-80
+
+
+For international transfers:
+
+IBAN: GB58NWBK6070801002231710022317
+Swift (BIC): NWBKGB2
+
+
+Cheque
+
+Cheques should be made payable to {xxxxxxxxxxxx} and sent to:
+
+Private Bill Office
+House of Commons
+London
+SW1A 0AA
+
+Please write your petition number on the back of the cheque.
+
+For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+
+Yours sincerely,
+
+Private Bill Office
+House of Commons 
+
+
+
+Website: https://www.parliament.uk/
+Twitter: https://twitter.com/ukparliament
+Facebook: https://facebook.com/ukparliament
+Instagram: https://instagram.com/ukparliament
+	
+View our Privacy policy at https://www.parliament.uk/
+
+You received this email because you submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill.
+
+Our address is: Houses of Parliament, Westminster, London, SW1A 0AA

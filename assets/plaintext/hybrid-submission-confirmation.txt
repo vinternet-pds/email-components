@@ -1,0 +1,91 @@
+﻿UK Parliament
+
+High Speed Rail (West Midlands-Crewe) Bill petition
+
+
+{IF MAIN CONTACT / PETITON AGENT}
+
+Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+
+{ELSE}
+
+Dear {Petitioner First Name} {Petitioner Last Name}
+
+{END IF MAIN CONTACT / PETITON AGENT}
+
+
+We have received your petition against the High Speed Rail (West Midlands - Crewe) Bill.
+
+Your petition reference is {Petition Reference}
+
+
+What happens next
+
+1. We’ll email you within 14 days about how to pay the £20 admin fee.
+
+2. We’ll publish your petition on our website. This will include your name and address.
+
+3. We’ll send your petition to HS2 Limited, who may contact you to discuss it. HS2 Limited can challenge your petition if they don’t believe you are affected by the Bill.
+
+4. You will usually be invited to give evidence to the committee about your petition. Hearings are scheduled for spring/summer 2018.
+
+
+Petitioner's details
+
+Name: {Petitioner First Name} {Petitioner Last Name}
+
+Address line 1: {Petitioner Address Line 1}
+
+Address line 2: {Petitioner Address Line 2}
+
+Post code: {Petitioner Post Code}
+
+Email: {Petitioner Email}
+
+Phone: {Petitioner Phone}
+
+
+{IF MAIN CONTACT / PETITON AGENT}
+
+Main contact’s details
+
+Name: {Petitioner Agent First Name} {Petitioner Agent Last Name}
+
+Address line 1: {Petitioner Agent Address Line 1}
+
+Address line 2: {Petitioner Agent Address Line 2}
+
+Post code: {Petitioner Agent Post Code}
+
+Email: {Petitioner Agent Email}
+
+Phone: {Petitioner Agent Phone}
+
+{END IF MAIN CONTACT / PETITON AGENT}
+
+
+Changing contact information
+
+If you want to change the main contact for your petition call us on 020 7219 3250.
+
+
+Withdrawing your petition
+
+You can withdraw your petition by emailing us at prbohoc@parliament.uk
+
+Anyone named on a petition can withdraw from the petition, leaving the remaining petitioners to continue with it.
+
+Withdrawn petitions will not be removed from the website.
+
+
+
+Website: https://www.parliament.uk/
+Twitter: https://twitter.com/ukparliament
+Facebook: https://facebook.com/ukparliament
+Instagram: https://instagram.com/ukparliament
+	
+View our Privacy policy at https://www.parliament.uk/
+
+You received this email because you submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill.
+
+Our address is: Houses of Parliament, Westminster, London, SW1A 0AA

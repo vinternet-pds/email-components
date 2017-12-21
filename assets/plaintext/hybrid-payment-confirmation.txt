@@ -1,0 +1,37 @@
+﻿UK Parliament
+
+High Speed Rail (West Midlands-Crewe) Bill petition
+
+
+{IF MAIN CONTACT / PETITON AGENT}
+
+Dear {Petitioner Agent First Name} {Petitioner Agent Last Name}
+
+{ELSE}
+
+Dear {Petitioner First Name} {Petitioner Last Name}
+
+{END IF MAIN CONTACT / PETITON AGENT}
+
+
+We have received the £20 admin fee for your petition against the High Speed Rail (West Midlands - Crewe) Bill - {Petition Number}. Thank you.
+
+For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+
+Yours sincerely,
+
+Private Bill Office
+House of Commons 
+
+
+
+Website: https://www.parliament.uk/
+Twitter: https://twitter.com/ukparliament
+Facebook: https://facebook.com/ukparliament
+Instagram: https://instagram.com/ukparliament
+	
+View our Privacy policy at https://www.parliament.uk/
+
+You received this email because you submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill.
+
+Our address is: Houses of Parliament, Westminster, London, SW1A 0AA
