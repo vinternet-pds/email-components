@@ -29,11 +29,19 @@ block content
             p.hybrid-variable.bottom
               = '{END IF MAIN CONTACT / PETITON AGENT}'
 
-            //- Petition reference  
-            p We have received the £20 admin fee for your petition against the High Speed Rail (West Midlands - Crewe) Bill - [petition number e.g. HS22A 0001]. Thank you.
+            //- Petition payment confirmation and number  
+            p We have received the &pound;20 admin fee for your petition against the High Speed Rail (West Midlands - Crewe) Bill - {Petition Number}. Thank you.
             
-            p For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+            p 
+              = 'For more information email '
+              a(href='mailto:prbohoc@parliament.uk') prbohoc@parliament.uk
+              = ' or phone 020 7219 3250.'
             
             p Yours sincerely,
-            p Private Bill Office
-            p House of Commons
+            
+            p 
+              = 'Private Bill Office'
+              br
+              = 'House of Commons'
+            br
+            br

@@ -20,11 +20,11 @@
 }
 
 .hybrid-content {
-  h2, p {
+  h2, h3, p {
     padding-left: 18px;
     padding-right: 18px;
   }
-  h2 {
+  h2, h3 {
     color: $deep-purple;
   }
   ul {
@@ -33,6 +33,9 @@
     li {
       margin-bottom: 6px;
     }
+  }
+  table {
+    margin-left: 18px;
   }
 }
 

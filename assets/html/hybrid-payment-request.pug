@@ -30,18 +30,19 @@ block content
               = '{END IF MAIN CONTACT / PETITON AGENT}'
 
             //- Petition reference  
-            p You submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill on {Petition Submission Date} - your petition number is {Petition Number}.
+            p You submitted a petition against the High Speed Rail (West Midlands - Crewe) Bill on {Petition Submission Date - DD/MM/YYYY} - your petition number is {Petition Number}.
             
-            p For the committee to consider your petition you need to pay a £20 admin fee.
+            p For the committee to consider your petition you need to pay a &pound;20 admin fee.
             
+            //- How to pay
             h2 How to pay
             p There are two ways to pay your £20 admin fee:
             
             h3 Online transfer
             
-            table(border='0' cellpadding='0' cellspacing='0' class='' width='100%')
+            table(border='0' cellpadding='0' cellspacing='0' class='' width='80%')
               tr
-                td Account Name:
+                td(width="130") Account Name:
                 td HOC Administration 2
               tr
                 td Account Number:
@@ -52,9 +53,9 @@ block content
             
             p For international transfers:
             
-            table(border='0' cellpadding='0' cellspacing='0' class='' width='100%')
+            table(border='0' cellpadding='0' cellspacing='0' class='' width='80%')
               tr
-                td IBAN:
+                td(width="130") IBAN:
                 td GB58NWBK6070801002231710022317
               tr
                 td Swift (BIC):
@@ -62,18 +63,29 @@ block content
 
             h3 Cheque
             
-            p Cheques should be made payable to XXX and sent to:
+            p Cheques should be made payable to {xxxxxxxxxxxx} and sent to:
             
-            p Private Bill Office
-            p House of Commons
-            p London
-            p SW1A 0AA
+            p 
+              = 'Private Bill Office'
+              br
+              = 'House of Commons'
+              br
+              = 'London'
+              br
+              = 'SW1A 0AA'
             
             p Please write your petition number on the back of the cheque.
             
-            p For more information email prbohoc@parliament.uk or phone 020 7219 3250.
+            p 
+              = 'For more information email '
+              a(href='mailto:prbohoc@parliament.uk') prbohoc@parliament.uk
+              = ' or phone 020 7219 3250.'
             
             p Yours sincerely,
             
-            p Private Bill Office
-            p House of Commons
+            p 
+              = 'Private Bill Office'
+              br
+              = 'House of Commons'
+            br
+            br
