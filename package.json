@@ -12,7 +12,7 @@
     "postinstall": "make install && make build"
   },
   "devDependencies": {
-    "juice": "^4.2.2",
+    "juice": "^5.0.1",
     "parliamentuk-pugin": "git+https://github.com/ukparliament/parliament.uk-pugin.git"
   }
 }

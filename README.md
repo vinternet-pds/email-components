@@ -11,10 +11,10 @@ To use, clone and build this repository with `npm install`.
 The templates in this repository are designed to be flexible; Mailchimp attributes have been added to make the different components repeatable and editable for ease of email composition, but you may wish to add new templates in time.
 
 In this section:
-- [Creating new templates](#creating-new-templates')
-- [Available template components](#available-template-components')
-- [Creating new template components](#creating-new-template-components')
-- [Building templates](#building-templates')
+- [Creating new templates](#creating-new-templates)
+- [Available template components](#available-template-components)
+- [Creating new template components](#creating-new-template-components)
+- [Building templates](#building-templates)
 
 ### Creating new templates
 
