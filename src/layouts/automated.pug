@@ -18,13 +18,6 @@ html(xmlns='http://www.w3.org/1999/xhtml')
             table(border='0' cellpadding='0' cellspacing='0' id='templateContainer')
               tr
                 td(align='center' valign='top')
-                  table(border='0' cellpadding='0' cellspacing='0' id='templatePreheader' width='100%')
-                    tr
-                      td Problems viewing this email?
-                        = ' '
-                        a(href='*|ARCHIVE|*' target='_blank') View it in your web browser
-              tr
-                td(align='center' valign='top')
                   table(border='0' cellpadding='0' cellspacing='0' width='100%')
                     tr
                       td(class='header' valign='top')
@@ -40,30 +33,29 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                     tr
                       td(valign='center')
                         a(target='_blank' href='https://www.parliament.uk/')
-                          img(src='images/portcullis@2x.png' width='32px')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/portcullis@2x.png' width='32px' alt='UK Parliament')
                       td(valign='center')
-                        a(target='_blank' href='https://twitter.com/ukparliament' mc:hideable)
-                          img(src='images/twitter@2x.png' width='32px' class='socialIcon')
+                        a(target='_blank' href='https://twitter.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/twitter@2x.png' width='32px' class='socialIcon' alt='Twitter')
                           = 'Twitter'
-                        a(target='_blank' href='https://facebook.com/ukparliament' mc:hideable)
-                          img(src='images/facebook@2x.png' width='32px' class='socialIcon')
+                        a(target='_blank' href='https://facebook.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/facebook@2x.png' width='32px' class='socialIcon', alt='Facebook')
                           = 'Facebook'
-                        a(target='_blank' href='https://instagram.com/ukparliament' mc:hideable)
-                          img(src='images/instagram@2x.png' width='32px' class='socialIcon')
+                        a(target='_blank' href='https://instagram.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/instagram@2x.png' width='32px' class='socialIcon', alt='Instagram')
                           = 'Instagram'
               tr
                 td(align='center' valign='top')
                   table(border='0' cellpadding='0' cellspacing='0' id='templateLegal' width='100%')
                     tr
                       td(valign='center')
-                        a(href='*|UNSUB|*') Unsubscribe
+                        a(href='https://email-subscriptions.parliament.uk/') Unsubscribe
                         = ' | '
-                        a(href='*|UPDATE_PROFILE|*') Manage your email preferences
+                        a(href='https://email-subscriptions.parliament.uk/') Manage your email subscriptions
                         br
-                        p *|LIST:DESCRIPTION|*
+                        br
+                        p View our
                           = ' '
-                          a(href='*|LIST:URL|*') *|LIST:COMPANY|*
-                          = '.'
-                        p Our address is: *|LIST:ADDRESS|*
-
-                        = '*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*'
+                          a(href='https://www.parliament.uk/site-information/data-protection/uk-parliament-email-privacy-policy/') privacy policy
+                        br
+                        p Our address is: Houses of Parliament, Westminster, London, SW1A 0AA

@@ -4,7 +4,7 @@
 SRC_FOLDER=./src
 PUBLIC_FOLDER=./public
 STYLESHEETS_LOC=$(SRC_FOLDER)/stylesheets
-TEMPLATE_LIST=blank commons lords
+TEMPLATE_LIST=blank commons lords automated
 EMAIL_PLATFORM=mailchimp
 
 # Node modules
