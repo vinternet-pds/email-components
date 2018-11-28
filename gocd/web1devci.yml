@@ -28,7 +28,6 @@ pipelines:
                     arguments:
                       - deploy_to_release
 
-
 environments:
   Web.DEVCI:
     pipelines:

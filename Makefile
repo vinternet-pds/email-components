@@ -68,6 +68,6 @@ images:
 
 build: clean images css html css_inline tidy archive
 
-# Syncs Public Folder to S3
+# Sync Public Folder to S3
 deploy_to_release:
 	aws s3 sync $(PUBLIC_FOLDER) s3://$(AWS_ACCOUNT).email-components --delete --acl=public-read
