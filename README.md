@@ -49,5 +49,3 @@ To create a new component, you need to do the following:
 ### Building templates
 
 Use `make build` to re-build the email templates.
-
-**N.B** This is already done via a `postinstall` hook for first-time installs.
