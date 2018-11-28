@@ -67,3 +67,7 @@ images:
 	@cp -r $(SRC_FOLDER)/images $(PUBLIC_FOLDER)
 
 build: clean images css html css_inline tidy archive
+
+# Sync Public Folder to S3
+deploy_to_release:
+	aws s3 sync $(PUBLIC_FOLDER) s3://$(AWS_ACCOUNT).email-components --delete --acl=public-read
