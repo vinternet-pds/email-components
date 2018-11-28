@@ -9,7 +9,7 @@
     "node": "8.x"
   },
   "scripts": {
-    "postinstall": "make install && make build"
+    "postinstall": "make install"
   },
   "devDependencies": {
     "juice": "^5.0.1",
