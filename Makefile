@@ -1,4 +1,4 @@
-.PHONY: install clean css css_inline tidy html archive
+.PHONY: install clean css css_inline tidy html archive build build_s3
 
 # Common variables
 SRC_FOLDER=./src
@@ -33,7 +33,6 @@ css:
 	@$(NODE_SASS) --output-style compressed --include-path $(PUGIN)/$(STYLESHEETS_LOC) -o $(PUBLIC_FOLDER)/stylesheets $(STYLESHEETS_LOC)
 	@$(POSTCSS) -u autoprefixer -r $(PUBLIC_FOLDER)/stylesheets/* --no-map
 
-
 # Inlines the CSS
 css_inline:
 	@for template in $(TEMPLATE_LIST); do \
@@ -67,6 +66,7 @@ images:
 	@cp -r $(SRC_FOLDER)/images $(PUBLIC_FOLDER)
 
 build: clean images css html css_inline tidy archive
+build_s3: clean images css html css_inline tidy
 
 # Sync Public Folder to S3
 deploy_to_release:

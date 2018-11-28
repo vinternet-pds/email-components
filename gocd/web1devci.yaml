@@ -21,7 +21,7 @@ pipelines:
                     run_if: passed
                     command: make
                     arguments:
-                      - build
+                      - build_s3
       - deploy:
           jobs:
             build:
