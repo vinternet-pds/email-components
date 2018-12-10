@@ -32,6 +32,6 @@ pipelines:
                     arguments:
                       - deploy_to_release
 environments:
-  Web.DEVCI:
+  Web.LIVE:
     pipelines:
       - email-components
