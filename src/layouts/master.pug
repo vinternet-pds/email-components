@@ -1,0 +1,69 @@
+doctype strict
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    // Allows template-specific stylesheet appends
+    block head
+      meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+      meta(name='viewport' content='width=device-width')
+      <!--[if mso]>
+      style(type='text/css')
+        != 'body, table, td {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}'
+      <![endif]-->
+
+  body(leftmargin='0' marginheight='0' marginwidth='0' offset='0' topmargin='0')
+    center
+      table(align='center' border='0' cellpadding='0' cellspacing='0' height='100%' id='bodyTable' width='560')
+        tr
+          td(align='center' id='bodyCell' valign='top')
+            table(border='0' cellpadding='0' cellspacing='0' id='templateContainer')
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' id='templatePreheader' width='100%')
+                    tr
+                      td Problems viewing this email?
+                        = ' '
+                        a(href='*|ARCHIVE|*' target='_blank') View it in your web browser
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' width='100%')
+                    tr
+                      td(class='header' valign='top')
+                        block header
+              tr
+                td(align='center' valign='top' id='templateContent')
+                  table(border='0' cellpadding='10' cellspacing='0' width='100%')
+                    // Components appended here to individual template
+                    block content
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' id='templateFooter' width='100%')
+                    tr
+                      td(valign='center')
+                        a(target='_blank' href='https://www.parliament.uk/')
+                          img(src='images/portcullis@2x.png' width='32px')
+                      td(valign='center')
+                        a(target='_blank' href='https://twitter.com/ukparliament' mc:hideable)
+                          img(src='images/twitter@2x.png' width='32px' class='socialIcon')
+                          = 'Twitter'
+                        a(target='_blank' href='https://facebook.com/ukparliament' mc:hideable)
+                          img(src='images/facebook@2x.png' width='32px' class='socialIcon')
+                          = 'Facebook'
+                        a(target='_blank' href='https://instagram.com/ukparliament' mc:hideable)
+                          img(src='images/instagram@2x.png' width='32px' class='socialIcon')
+                          = 'Instagram'
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' id='templateLegal' width='100%')
+                    tr
+                      td(valign='center')
+                        a(href='*|UNSUB|*') Unsubscribe
+                        = ' | '
+                        a(href='*|UPDATE_PROFILE|*') Manage your email preferences
+                        br
+                        p *|LIST:DESCRIPTION|*
+                          = ' '
+                          a(href='*|LIST:URL|*') *|LIST:COMPANY|*
+                          = '.'
+                        p Our address is: *|LIST:ADDRESS|*
+
+                        = '*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*'

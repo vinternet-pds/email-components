@@ -1,0 +1,51 @@
+/*--- Actual Footer ---*/
+#templateFooter {
+  background: $grey-4;
+  border-top: 1px solid $grey-3;
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 16px;
+    color: $grey-1;
+    img {
+      display: inline-block;
+      padding-right: 10px;
+    }
+    .socialIcon {
+      vertical-align: middle;
+      padding-left: 18px;
+      max-width: 16px;
+    }
+  }
+  td {
+    padding: 12px;
+  }
+  td:last-child {
+    text-align: right;
+  }
+}
+
+/*--- Legal/Unsubscribe Section ---*/
+#templateLegal {
+  font-size: 12px;
+  line-height: 20px;
+  color: $grey-2;
+  td {
+    padding: 18px 0 0;
+  }
+  a {
+    color: $grey-2;
+  }
+}
+
+
+@media only screen and (max-width: 599px) {
+  #templateFooter a  {
+    font-size: 0 !important;
+  }
+
+  #templateLegal td {
+    padding: 18px $base-spacing-unit !important;
+  }
+}

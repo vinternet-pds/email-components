@@ -1,0 +1,61 @@
+doctype strict
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    // Allows template-specific stylesheet appends
+    block head
+      meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+      meta(name='viewport' content='width=device-width')
+      <!--[if mso]>
+      style(type='text/css')
+        != 'body, table, td {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}'
+      <![endif]-->
+
+  body(leftmargin='0' marginheight='0' marginwidth='0' offset='0' topmargin='0')
+    center
+      table(align='center' border='0' cellpadding='0' cellspacing='0' height='100%' id='bodyTable' width='560')
+        tr
+          td(align='center' id='bodyCell' valign='top')
+            table(border='0' cellpadding='0' cellspacing='0' id='templateContainer')
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' width='100%')
+                    tr
+                      td(class='header' valign='top')
+                        block header
+              tr
+                td(align='center' valign='top' id='templateContent')
+                  table(border='0' cellpadding='10' cellspacing='0' width='100%')
+                    // Components appended here to individual template
+                    block content
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' id='templateFooter' width='100%')
+                    tr
+                      td(valign='center')
+                        a(target='_blank' href='https://www.parliament.uk/')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/portcullis@2x.png' width='32px' alt='UK Parliament')
+                      td(valign='center')
+                        a(target='_blank' href='https://twitter.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/twitter@2x.png' width='32px' class='socialIcon' alt='Twitter')
+                          = 'Twitter'
+                        a(target='_blank' href='https://facebook.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/facebook@2x.png' width='32px' class='socialIcon', alt='Facebook')
+                          = 'Facebook'
+                        a(target='_blank' href='https://instagram.com/ukparliament')
+                          img(src='https://s3-eu-west-1.amazonaws.com/web1devci.email-components/images/instagram@2x.png' width='32px' class='socialIcon', alt='Instagram')
+                          = 'Instagram'
+              tr
+                td(align='center' valign='top')
+                  table(border='0' cellpadding='0' cellspacing='0' id='templateLegal' width='100%')
+                    tr
+                      td(valign='center')
+                        a(href='https://email-subscriptions.parliament.uk/') Unsubscribe
+                        = ' | '
+                        a(href='https://email-subscriptions.parliament.uk/') Manage your email subscriptions
+                        br
+                        br
+                        p View our
+                          = ' '
+                          a(href='https://www.parliament.uk/site-information/data-protection/uk-parliament-email-privacy-policy/') privacy policy
+                        br
+                        p Our address is: Houses of Parliament, Westminster, London, SW1A 0AA

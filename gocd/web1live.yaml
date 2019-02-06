@@ -1,0 +1,37 @@
+pipelines:
+  email-components:
+    group: Dependencies
+    label_template: "${COUNT}"
+    materials:
+      email-components-git:
+        git: https://github.com/ukparliament/email-components.git
+        branch: master
+        auto_update: true
+    stages:
+      - build:
+          jobs:
+            build:
+              tasks:
+                - exec:
+                    run_if: passed
+                    command: npm
+                    arguments:
+                      - install
+                - exec:
+                    run_if: passed
+                    command: make
+                    arguments:
+                      - build_s3
+      - deploy:
+          jobs:
+            build:
+              tasks:
+                - exec:
+                    run_if: passed
+                    command: make
+                    arguments:
+                      - deploy_to_release
+environments:
+  Web.LIVE:
+    pipelines:
+      - email-components

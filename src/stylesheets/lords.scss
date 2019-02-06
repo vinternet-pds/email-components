@@ -1,0 +1,12 @@
+/*--- Import Blank Stylesheet ---*/
+@import 'blank';
+
+.divider {
+	hr {
+		border-color: $lords;
+	}
+}
+
+.header__title h2 {
+  border-color: $lords;
+}

@@ -1,0 +1,73 @@
+@import 'clients';
+@import 'reset';
+
+/*--- Ideally from pugin but don't want extra CSS ---*/
+$base-spacing-unit: 6px;
+$base-spacing-unit-tiny: round($base-spacing-unit * 2); // 12px
+
+/*--- Import settings from parliament.uk-pugin ---*/
+@import 'settings/colours';
+
+/*--- Body Settings ---*/
+body {
+  background: $grey-5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: $grey-1;
+}
+
+/*--- Links ---*/
+a {
+  color: $link;
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+a img {
+  border: 0;
+}
+
+/*--- Titles ---*/
+h1, h2, h3 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+ul { list-style-position: outside; padding: 0 0 0 1em; }
+
+#templateContent {
+  background: $white;
+  padding-bottom: 20px;
+}
+
+#bodyTable {
+  max-width: 560px;
+  width: 100%;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+/*--- Import Components ---*/
+@import 'components/masthead';
+@import 'components/dividers';
+@import 'components/columns';
+@import 'components/footer';
+
+/*--- Overrides ---*/
+.header__image {
+  vertical-align: middle;
+}
+
+.columns__full {
+  ul {
+    list-style: none;
+    padding: 0 0 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.divider {
+	hr {
+		border: 0;
+		border-color: $grey-3;
+		border-top-width: 2px;
+		border-top-style: solid;
+		margin: 0;
+	}
+
+	h2, h3 {
+		padding: 0;
+	}
+
+	td {
+		padding: 0 10px;
+	}
+}
+
+.divider.ukp {
+  hr {
+    border-color: $deep-purple;
+  }
+}
